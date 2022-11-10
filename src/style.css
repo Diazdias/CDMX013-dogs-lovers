@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #b3b3b3;
+}
+
+
+nav {
+    display: flex;
+    align-items: right ;
+    justify-content: right ;
+    gap: 45px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    background-color: #ffd650;
+    padding: 10px;
+}
+
+#filter {
+    background-color: transparent;
+    padding: 5px;
+    color: #222221;
+    border: 2px solid #8d8a8a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#root {
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    color: #f3df27;
+}
+
+.card img:hover {
+  cursor: pointer;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 80px;
+    padding: 5px;
+}
+
+
+h1 {
+    color: #2c2b2be0;
+    border-radius: 2px;
+    border: 2px solid #ebdf44;
+    padding: 10px;
+    font-size: 10px;
+    font-weight: 400;
+}
+h4 {
+    color: rgb(63, 61, 61);
+    text-align: center;
+    margin-top: 45px;
+    border-color: black;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .dog {
+    display: flex;
+    margin-top: -30px;
+    margin-left: 180px;
+    border-radius: 10px 10px;
+    
+  }
+  h3 {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 500px;
+    top: 140px;
+    color: transparent;
+    margin: auto;
+    font-size: 33px;
+    -webkit-text-stroke: .2px rgb(22, 22, 21);
+  }
